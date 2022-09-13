@@ -6,7 +6,7 @@
 #    By: yeonhkim <yeonhkim@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/09 04:10:17 by yona              #+#    #+#              #
-#    Updated: 2022/09/12 15:02:27 by yeonhkim         ###   ########.fr        #
+#    Updated: 2022/09/13 16:26:03 by yeonhkim         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,8 +47,6 @@ re :
 bonus :
 	BONUS=1 make all
 
-
-
 $(NAME) : $(OBJS)
 	make all -C $(LIBDIR)
 	cp $(LIBDIR)/libft.a ./$@
@@ -57,4 +55,4 @@ $(NAME) : $(OBJS)
 %.o : %.c
 	$(CC) -c $(CFLAGS) $< -o $@ -I$(LIBDIR)
 
-.PHONY : all clean fclean re bonus re_obj
+.PHONY : all clean fclean re bonus rm_obj
