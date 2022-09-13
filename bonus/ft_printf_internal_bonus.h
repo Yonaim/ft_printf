@@ -6,7 +6,7 @@
 /*   By: yeonhkim <yeonhkim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/09 04:30:53 by yona              #+#    #+#             */
-/*   Updated: 2022/09/12 15:18:39 by yeonhkim         ###   ########.fr       */
+/*   Updated: 2022/09/13 16:11:06 by yeonhkim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,8 +97,8 @@ typedef int					(*t_putf)(va_list, t_finfo, t_out);
 /*-------------- FUNCTION PROTOTYPES -------------*/
 
 /* out */
-int		writeout(int fd);
 int		putout(const char *str, int nbyte);
+int		writeout(int fd);
 
 /* formatted string */
 void	parse_format_info(const char **format, t_finfo f_info);
