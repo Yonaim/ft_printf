@@ -64,3 +64,8 @@ int main(void)
 ## Optimization Technique
 
 To optimize output efficiency, this implementation stores formatted characters temporarily in a linked-list buffer before making a single call to `write()`. This reduces the overhead associated with multiple system calls, aligning the library's performance more closely with the original `printf()` function.
+
+## Development Period
+
+August, 2022 – September, 2022
+
