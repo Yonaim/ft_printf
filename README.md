@@ -1,6 +1,6 @@
 # ft_printf
 
-ft_printf is a custom implementation of the standard C `printf()` function, designed to efficiently handle formatted output. This project was developed to deepen my understanding of formatted I/O and to practice optimization strategies, specifically focusing on minimizing system calls through the effective use of a linked-list buffer.
+ft_printf is a reimplementation of the standard C printf() function, designed for efficient formatted output. This project was developed to deepen my understanding of formatted I/O and to practice optimization techniques, with a particular focus on minimizing system calls through the use of a linked-list buffer.
 
 ## Key Features
 
